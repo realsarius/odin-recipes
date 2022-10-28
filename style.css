@@ -1,0 +1,157 @@
+body {
+    font-family: 'Inter', 'Times New Roman', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    margin: 20px;
+}
+.links ul li {
+    list-style: none;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 2%;
+    transition: .250s ease-in-out;
+    margin-top: 30px;
+}
+
+img:hover {
+    transition: .250s ease-in-out;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000);
+
+}
+
+.content {
+    margin: 0 20px 0 20px;
+}
+
+/* === BASE HEADING === */
+
+h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+}
+
+h1 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* === HEADING STYLE #1 === */
+.one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+}
+
+.one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+
+/* === HEADING STYLE #5 === */
+.five h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: -20px;
+    color: #202020;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+.five h1 span {
+    margin-top: 30px;
+    text-transform: none;
+    font-size: .65em;
+    font-weight: normal;
+    font-style: italic;
+    font-family: "Playfair Display", "Bookman", serif;
+    color: #999;
+    letter-spacing: -0.005em;
+    word-spacing: 1px;
+    letter-spacing: none;
+}
+
+.five h1:before {
+    position: absolute;
+    left: 0;
+    bottom: 38px;
+    width: 60px;
+    height: 4px;
+    content: "";
+    left: 50%;
+    margin-left: -30px;
+    background-color: #dfdfdf;
+}
+
+.ten h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ten h1:before {
+    background-color: #c50000;
+    border-radius: 0.25rem;
+    content: '';
+    display: inline-flex;
+    height: 0.25rem;
+    width: 42px;
+    margin-right: 10px;
+    margin-bottom: 1.25rem;
+}
+
+.ten h1:after {
+    background-color: #c50000;
+    border-radius: 0.25rem;
+    content: '';
+    display: inline-flex;
+    height: 0.25rem;
+    width: 42px;
+    margin-left: 10px;
+    margin-bottom: 1.25rem;
+}
